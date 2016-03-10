@@ -78,10 +78,10 @@ body {
   width:206px;
   padding:2px;
   border-radius: 2px;
-  background:rgba(255,255,255,0.5);
   color:black;
   font-size:10px;
   text-shadow:none;
+  color:white;
 }
 
 .bottom-footer p {
@@ -130,7 +130,10 @@ body {
   }
 }
 
-
+p {
+  font-weight: 300;
+  margin:24px;
+}
 /*
  * Cover
  */
@@ -149,10 +152,9 @@ body {
  */
 
 .mastfoot {
-  color: rgba(50,50,50,.75);
+  color: rgba(250,250,250,.75);
   padding:2px 4px;
   border-radius:2px;
-  background:rgba(255,255,255,0.5);
 }
 
 .bottom-images {
@@ -164,32 +166,70 @@ body {
   max-width:960px;
 }
 
-.shadow-bot {
-  background-image:url(./fade.png);
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  border-bottom: 1px solid rgba(0,0,0,0.25);
-  padding:24px 24px 0 24px;
-  margin-top:48px;
-}
-
 .img-responsive {
   max-width: 100%;
 }
 
 .logo {
   position:relative;
-  top:-12px;
-  left:-6px;
+  top:-24px;
   display:block;
   margin:24px auto;
+  max-width:125px;
 }
 
 .container {
   max-width:1000px;
 }
 
+
+/* mailchimp */
+#mc_embed_signup {
+  background:none!important;
+    width:100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  #mc_embed_signup input {
+    border-radius: 6px;
+    margin:0;
+    padding:18px 0;
+    outline: none;
+    border: none;
+    color:#333;
+    width:100%;
+    max-width: 400px;
+    letter-spacing:1px;
+    font-size:16px;
+  }
+
+#mc_embed_signup input.email {
+  width:100%;
+    max-width: 400px;
+    padding:14px 0;
+        text-indent: 4%
+}
+
+  #mc_embed_signup input.register-btn {
+    width:100%;
+    max-width: 400px;
+    display:block;
+    color:#FF7B2E!important;
+    background:#fff;
+    font-weight: bolder;
+    padding:12px 0;
+    box-shadow:0 4px rgba(255,255,255,0.5);
+  }
+#mc_embed_signup input.register-btn:hover {
+  cursor: pointer;
+  opacity:0.8;
+}
+#mc_embed_signup .mc-field-group {
+  margin-right:0;
+  padding-right:0;
+  width:100%;
+}
 /*
  * Affix and center
  */
